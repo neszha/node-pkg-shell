@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "npm run prod"
+    "build": "bash builder.sh"
   },
   "heroku-run-build-script": true,
   "repository": {
