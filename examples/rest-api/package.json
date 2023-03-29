@@ -1,0 +1,52 @@
+{
+  "name": "myexams-server",
+  "app-name": "My Exams",
+  "company-name": "Neszha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npm run prod"
+  },
+  "heroku-run-build-script": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neszha/myexams.git"
+  },
+  "author": "Fanesa Hadi Pramana",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/neszha/myexams/issues"
+  },
+  "homepage": "https://github.com/neszha/myexams#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "delay": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "events": "^3.3.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "file-system": "^2.2.2",
+    "ip": "^1.1.8",
+    "jsdom": "^21.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "mammoth": "^1.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0",
+    "node-machine-id": "^1.1.12",
+    "random": "^4.1.0",
+    "randomstring": "^1.2.3",
+    "randx": "^1.1.1",
+    "request-ip": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  }
+}
