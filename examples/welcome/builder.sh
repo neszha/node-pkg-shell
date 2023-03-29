@@ -8,9 +8,9 @@ SCRIPTS=("index.js")
 ASSETS=("")
 
 # # Configurations: Builder.
-TARGET_NODE_RANGE="node18"              # node8, node10, node12, node14, node16, or node18 
-TARGET_PLATFROMS=("win" "linux")        # alpine, linux, linuxstatic, win, and macos
-TARGET_ARCH="x64"                       # x64 or arm64
+TARGET_NODE_RANGE="node18"              # node8, node10, node12, node14, node16, or [node18] 
+TARGET_PLATFROMS=("linux" "win")        # alpine, linux, linuxstatic, win, and macos
+TARGET_ARCH="x64"                       # arm64 or [x64]
 OUTPUT_PATH="bin"
 
 # # Prepare NPM global packages.

@@ -3,6 +3,7 @@
 dist
 package-lock.json
 test.js
+bin
 
 # Package building
 fake-package.json
