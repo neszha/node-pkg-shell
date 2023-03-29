@@ -14,7 +14,7 @@ Program berbasis shell script untuk mengemas proyek Node.js ke dalam sebuah berk
 - Tidak perlu mengunduh ratusan berkas melalui npm install untuk mendeploy aplikasi.
 
 ## Persiapan
-Program shell script memperlukan dua library tambahan untuk menjalankan fungsinya:
+Program shell script memerlukan dua library tambahan untuk menjalankan fungsinya:
 
 ```sh
 npm install -g pkg
@@ -30,7 +30,7 @@ Masukan file `builder.sh` ke dalam root proyek Node.js anda. Setelah itu lakukan
 bash builder.sh
 ```
 
-**Perintah tersebut hanya dapat dijalankan pada kernel linux. Jika anda menggunakan sistem operasi windows, anda dapat menggunakan kernel linux pada `git bash` ataupun `Windwos System for Linux (WSL)`.**
+**Perintah tersebut hanya dapat dijalankan pada kernel linux. Jika anda menggunakan sistem operasi Windows, anda dapat menggunakan kernel linux pada `git bash` ataupun `Windwos System for Linux (WSL)`.**
 
 ## Konfigurasi
 
@@ -42,7 +42,7 @@ Konfigurasi aplikasi:
 
 Konfigurasi builder:
 
-- **TARGET_NODE_RANGE** Target versi Node.js rumtime yang ingin digunakan. Opsi yang dapat dipilih yaitu node8, node10, node12, node14, node16, atau [node18].
-- **TARGET_PLATFROMS** Target sistem operasi. Sistem operasi yang didukung yaitu alpine, linux, linuxstatic, win, dan macos
+- **TARGET_NODE_RANGE** Target versi Node.js runtime yang ingin digunakan. Opsi yang dapat dipilih yaitu node8, node10, node12, node14, node16, atau [node18].
+- **TARGET_PLATFORMS** Target sistem operasi. Sistem operasi yang didukung yaitu alpine, linux, linuxstatic, win, dan macos
 - **TARGET_ARCH** Arsitektur prosesor. Opsi yang dapat digunakan arm64 atau [x64].
-- **OUTPUT_PATH** Lokasi ouput dari binary file.
+- **OUTPUT_PATH** Lokasi output dari binary file.
